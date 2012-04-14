@@ -65,7 +65,7 @@ void quick_sort_me(int s[],int l,int r)
         quick_sort_me(s,i,r);
     }
 }
-int main(int argc,int argv)
+int main(int argc,char* argv[])
 {
     int num[10]={2,10,4,90,1034,4,98,4,-9,0};
     quick_sort_me(num,0,9);
